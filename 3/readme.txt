@@ -81,3 +81,12 @@ queueADT.c:23:2: warning: format '%s' expects argument of type 'char *', but arg
 Explanation: The printHelp function is queueADT.c uses a print statement
 that expects 'node->data' to be a 'char *' but the 'node->data' is a 'void *'
 ------------------------------------------------------------------------
+OVERVIEW:
+Mysh is an interactive shell capable of executing simple UNIX 
+commands and some implemented internal commands. 
+------------------------------------------------------------------------
+BACKGROUND:
+Goal is to understand how to spawn subprocesses, how to implement
+internal commands, and handle errors. Builds upon skills of 
+dynamic memory management, text I/O, string manipulation, and
+the design and use of structures. 
