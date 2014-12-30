@@ -22,7 +22,8 @@ the design and use of structures.
 2. Type "./mysh" to run shell.
 3. Type in any external UNIX commands or the internal commands below.
 
-Internal Commands
+###Internal Commands
+
 1. help - print a list of internal commands
 2. history - print a list of commands executed so far
 3. verbose on/off - When verbose is on, shell prints a list of commands and
